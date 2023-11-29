@@ -206,8 +206,6 @@ strong {
   border-bottom: 1px solid transparent;
 }
 
-
-
 .heading-primary,
 .heading-secondary {
   color: var(--clr-gray-800);
@@ -553,5 +551,61 @@ strong {
 }
 
 /* ----------------- */
-/* MEALS SECTION */
+/* TESTIMONTIALS SECTION */
 /* ----------------- */
+
+.section-testimonials {
+  display: grid;
+  grid-template: auto / 55fr 45fr;
+  align-items: center;
+  background-color: var(--clr-primary-100);
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template: auto / repeat(2, 1fr);
+  gap: 4.8rem;
+}
+
+.testimontial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: var(--clr-primary-600);
+}
+
+.gallery {
+  display: grid;
+  grid-template: auto / repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-img {
+  width: 100%;
+  display: block;
+  opacity: 0.7;
+  transition: all 0.4s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
